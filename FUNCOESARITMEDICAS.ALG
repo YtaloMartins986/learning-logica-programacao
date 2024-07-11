@@ -5,6 +5,6 @@ var
 inicio
       Escreva ("Informe O  Valor Absoluto")
        Leia (N1)
-      A <- sen(N1)
+      A <- abs(N1)
       Escreva (A)
 fimalgoritmo
