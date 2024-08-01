@@ -7,7 +7,7 @@ inicio
         leia(valor_emprestimo)
     escreva("Quantas parcelas? ")
         leia(parcelas)
-        VT <- (valor_emprestimo)/parcelas
-    escreva("O Valor do emprestimo com as parcelas e: ", VT)
+    escreva("O Valor do emprestimo com as parcelas e: ",VT)
 
 fimalgoritmo
+RESOLVER ESSE EMPRESTIMO AMANHA
