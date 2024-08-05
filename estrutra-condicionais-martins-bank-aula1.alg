@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "Martins Bank Test"
 
 var
     ano,nasc,idade: inteiro
