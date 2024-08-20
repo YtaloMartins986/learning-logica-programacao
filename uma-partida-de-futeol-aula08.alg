@@ -24,10 +24,5 @@ inicio
             se (dife < 5) e (dife > 0) entao 
                 escreva("STATUS: NORMAL")
                 fimse
-    
-    
-
-
-
 
 fimalgoritmo
