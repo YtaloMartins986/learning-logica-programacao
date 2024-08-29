@@ -17,7 +17,7 @@ inicio
                        npar <- v + npar
                     fimse
                          se (v%5=0) entao
-                            divi <- v + divi
+                            divi <- divi + 1
                          fimse
       fimenquanto
       escreval("")
