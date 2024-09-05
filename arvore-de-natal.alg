@@ -11,7 +11,6 @@ inicio
       escreval("Digite a altura da arvore de natal: ")
       leia(altura)
       escreval("")
-      par
       para i de 1 ate altura faca
            para espaco <- 0 ate altura - i faca
                 escreva(" ")
