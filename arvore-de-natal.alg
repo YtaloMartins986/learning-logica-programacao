@@ -2,8 +2,10 @@ algoritmo "semnome"
 //  
 //  
 var
-   altura,i,espaco: inteiro
-
+   //v ld
+   altura,i: inteiro
+   //v le
+   altura2,i2: inteiro
 inicio
       escreval("---------------")
       escreval("ARVORE DE NATAL")
@@ -12,16 +14,20 @@ inicio
       leia(altura)
       escreval("")
       para i de 1 ate altura faca
-           para espaco <- 0 ate altura - i faca
-                escreva(" ")
+           escreva("                 ")
+           para i de altura + 2 ate altura + i faca
+                escreva("*")
+                i2 <- altura
+                altura2 <- altura
+                            para i2 de 1 ate altura2 faca
+
            fimpara
-           escreva(" ")
            escreval("*")
+           escreva("")
       fimpara
-      para i de 1 ate altura faca
-           escreva(" *")
-      fimpara
-      
+
+
+
 
 
 fimalgoritmo
