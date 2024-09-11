@@ -1,4 +1,6 @@
 algoritmo "semnome"
+//  
+//  
 var
    altura, i, j: inteiro
 inicio
