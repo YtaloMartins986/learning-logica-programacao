@@ -4,12 +4,16 @@ var
     i: inteiro
     n,pesado: caractere
     p,mai: real
-inicio
+    procedimento topo()
+    inicio
     limpatela
     escreval("-------------------------------")
     escreval("       DETECTOR DE PESADO      ")
     escreval("maior peso ate agora: ",mai,"Kg")
     escreval("-------------------------------")
+    fimprocedimento
+inicio
+    topo()
     para i <- 1 ate 5 faca
         escreva("Digite o Nome: ")
         leia(n)
@@ -19,17 +23,10 @@ inicio
                 mai <- p 
                 pesado <- n
             fimse
-            limpatela
-            escreval("-------------------------------")
-            escreval("       DETECTOR DE PESADO      ")
-            escreval("maior peso ate agora: ",mai,"Kg")
-            escreval("-------------------------------")
+            topo
     fimpara
     limpatela
-    escreval("-------------------------------")
-    escreval("       DETECTOR DE PESADO      ")
-    escreval("maior peso ate agora: ",mai,"Kg")
-    escreval("-------------------------------")
+    topo()
     escreval("A pessoa mais pesada foi, ",pesado,", com ",mai," quilos")
 
 fimalgoritmo
